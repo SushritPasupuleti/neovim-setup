@@ -27,3 +27,63 @@ nvim .
 ```
 
 Opens and displays a file browser that you can naviagate through. Press `enter` to open file. Neat out-of-the-box feature.
+
+## Editting the Config
+
+While in your default working directory. Create/Access the `.config` folder. This usually already exists so beware.
+
+```bash
+mkdir .config
+cd .config
+```
+
+Make a `nvim` directory:
+
+```bash
+mkdir nvim
+```
+
+Create neovim config file:
+
+```
+nvim init.vim
+```
+
+### Sample Config
+
+My current config will be added to this repo
+
+```vim
+:set number
+:set relativenumber
+:set autoindent
+:set tabstop=4
+:set shiftwidth=4
+:set smarttab
+:set softtabstop=4
+:set mouse=a
+```
+
+## Install a Plug-in Manager
+
+I am using [vim-plug](https://github.com/junegunn/vim-plug) for this. Follow install instructions from there.
+
+Setting up `vim-plug` requires adding the following to the `init.vim` file:
+
+```.vim
+call plug#begin()
+" all your plugins...
+Plug 'url to your plugin'
+call plug#end()
+```
+
+Installing the Plugins (One time only)
+
+Inside your nvim instance run the following in command mode:
+
+```vim
+:PlugInstall
+```
+
+Your plugins are now installed!
+
