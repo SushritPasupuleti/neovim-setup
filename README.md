@@ -77,6 +77,12 @@ Plug 'url to your plugin'
 call plug#end()
 ```
 
+Also install `exuberant ctags`
+
+```bash
+brew install ctags
+```
+
 Installing the Plugins (One time only)
 
 Inside your nvim instance run the following in command mode:
@@ -86,4 +92,10 @@ Inside your nvim instance run the following in command mode:
 ```
 
 Your plugins are now installed!
+
+Deleting plugins:
+
+> Remove the `Plug ''` entry from the `init.vim` file.
+
+> Run `:PlugClean`.
 
