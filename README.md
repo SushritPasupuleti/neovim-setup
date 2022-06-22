@@ -122,3 +122,30 @@ yarn
 
 This installs all dependencies. Takes a while.
 
+### Installing Language Servers
+
+Install using:
+> :CocInstall name-of-lsp
+
+- Python: `coc-pyright`.
+
+- JSON: `coc-json`.
+
+- Markdown: `coc-markdownlint`.
+
+- JS/TS: `coc-tsserver`.
+
+- HTML: `coc-html`.
+
+- Java: `coc-java`.
+
+- CSS: `coc-css`.
+
+- Dart: `coc-flutter`.
+
+- Bash: `coc-sh`.
+
+## Integrity Check
+
+> :checkhealth
+
