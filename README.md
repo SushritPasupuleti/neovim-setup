@@ -34,7 +34,7 @@ While in your default working directory. Create/Access the `.config` folder. Thi
 
 ```bash
 mkdir .config
-cd .config
+cd .config/
 ```
 
 Make a `nvim` directory:
@@ -98,4 +98,27 @@ Deleting plugins:
 > Remove the `Plug ''` entry from the `init.vim` file.
 
 > Run `:PlugClean`.
+
+## Install coc
+
+For autocompletions.
+
+After adding the Plug config:
+
+```.vim
+Plugin 'neoclide/coc.nvim'
+```
+
+Go to your `plugged` folder.
+
+On Mac: `~/.local/share/nvim/plugged`.
+
+On Linux: `~/.config/nvim/plugged`.
+
+```bash
+cd coc.vim/
+yarn
+```
+
+This installs all dependencies. Takes a while.
 
