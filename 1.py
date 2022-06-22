@@ -1,4 +1,6 @@
 from numpy import random
 
-print(f"Hello World {random.randint(1000)}")
+ran = random.randint(1000)
+
+print(f"Hello World {ran}")
 
