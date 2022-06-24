@@ -195,3 +195,38 @@ Ctrl+W, Ctrl+W to switch between windows
 
 Ctrl+W, J (xor K, H, L) to switch to adjacent window (intuitively up, down, left, right)
 
+## Loading Lua Scripts
+
+- Create a `lua` directory under `.config/nvim/`. 
+
+- Create another subdirectory under `lua`. Use your name for example.
+
+- Write all your scripts here. Ex: `options.lua`.
+
+- At the `nvim/lua` directory level create a `config.lua` and inside that add references to all subdirectory contained lua scripts with:
+
+```lua
+require "example_subdir.option"
+```
+
+In your `init.vim` load the script with:
+
+```vim
+lua require('config')
+```
+
+## LSP Instead of coc
+
+After tinkering with coc, which is easier to get started with, I realized I need greater granular control over my configs while also keeping them light weight. So I'm switching to the native LSP.
+
+Add the `nvim-lspconfig` plugin.
+
+```vim
+Plug 'neovim/nvim-lspconfig'
+```
+
+### Installing LSPs
+
+- Python: `yarn global add pyright`
+
+- JS/TS: `yarn global add typescript typescript-language-server`
