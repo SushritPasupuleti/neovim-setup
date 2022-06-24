@@ -179,6 +179,10 @@ To select any text, you must enter `visual` mode. Press <kbd>v</kbd> in `normal`
 
 - <kbd>r</kbd> Replace selection with text you will now type.
 
+#### Copy/Paste Across Terminals
+
+Use: `"+y"` and `"+p` from `visual` mode.
+
 ### For Tiling
 
 Ctrl+W, S (upper case) for horizontal splitting
