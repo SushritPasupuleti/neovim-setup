@@ -145,11 +145,39 @@ Install using:
 
 - Bash: `coc-sh`.
 
+- prettier: `coc-prettier`.
+
 ## Integrity Check
 
 > :checkhealth
 
 ## Useful keyboard shortcuts
+
+### Undo/Redo
+
+Use `:u` and `:r` respectively.
+
+### Search and Highlight
+
+In `command` mode. Press <kbd>/<kbd> to enter search. Now type a regex pattern you would like to search.
+
+Clear the selections by using `:noh`.
+
+### Copy/Paste/Select
+
+To select any text, you must enter `visual` mode. Press <kbd>v</kbd> in `normal` mode for this.
+
+- Use arrow keys to expand the selection.
+
+- <kbd>d</kbd> Deletes the selection.
+
+- <kbd>y</kbd> "yank"/copy the selection.
+
+- <kbd>p</kbd> Paste the selection.
+
+- Search by using these 4 in conjuntion on the selected text: <kbd>y</kbd> <kbd>q</kbd> <kbd>/<kbd> <kbd>p</kbd>
+
+- <kbd>r</kbd> Replace selection with text you will now type.
 
 ### For Tiling
 
