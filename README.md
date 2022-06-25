@@ -1,7 +1,10 @@
-# Neovim Experiments
+# Neovim Setup
+
 A repo that I'm using to learn vim/neovim.
 
 > Just formatted this `README` and added this line via `neovim`. Massive flex :O
+
+You can find my 2 configs in [coc version](./coc-init.vim) and [lsp version](./lsp-init.vim)
 
 ## Some basic Navigation
 
@@ -230,3 +233,46 @@ Plug 'neovim/nvim-lspconfig'
 - Python: `yarn global add pyright`
 
 - JS/TS: `yarn global add typescript typescript-language-server`
+
+## Installing Glow for Markdown Preview
+
+```bash
+# macOS or Linux
+brew install glow
+
+# macOS (with MacPorts)
+sudo port install glow
+
+# Arch Linux (btw)
+pacman -S glow
+
+# Void Linux
+xbps-install -S glow
+
+# Nix
+nix-env -iA nixpkgs.glow
+
+# FreeBSD
+pkg install glow
+
+# Solus
+eopkg install glow
+
+# Windows (with Scoop)
+scoop install glow
+
+# Android (with termux)
+pkg install glow
+```
+
+```vim
+Plug 'ellisonleao/glow.nvim', {'branch': 'main'}
+```
+
+## Telescope
+
+You need `ripgrep` for `live_grep`.
+
+```bash
+brew install ripgrep
+```
