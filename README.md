@@ -162,7 +162,7 @@ Use `:u` and `:r` respectively.
 
 ### Search and Highlight
 
-In `command` mode. Press <kbd>/<kbd> to enter search. Now type a regex pattern you would like to search.
+In `command` mode. Press <kbd>/</kbd> to enter search. Now type a regex pattern you would like to search.
 
 Clear the selections by using `:noh`.
 
@@ -178,25 +178,25 @@ To select any text, you must enter `visual` mode. Press <kbd>v</kbd> in `normal`
 
 - <kbd>p</kbd> Paste the selection.
 
-- Search by using these 4 in conjuntion on the selected text: <kbd>y</kbd> <kbd>q</kbd> <kbd>/<kbd> <kbd>p</kbd>
+- Search by using these 4 in conjuntion on the selected text: <kbd>y</kbd> <kbd>q</kbd> <kbd>/</kbd> <kbd>p</kbd>
 
 - <kbd>r</kbd> Replace selection with text you will now type.
 
 #### Copy/Paste Across Terminals
 
-Use: `"+y"` and `"+p` from `visual` mode.
+Use: <kbd>"</kbd> <kbd>+ </kbd> <kbd> y</kbd> and <kbd>"</kbd> <kbd>+ </kbd> <kbd> p</kbd> from `visual` mode.
 
 ### For Tiling
 
-Ctrl+W, S (upper case) for horizontal splitting
+<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>S</kbd> (upper case) for horizontal splitting
 
-Ctrl+W, v (lower case) for vertical splitting
+<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>v</kbd> (lower case) for vertical splitting
 
-Ctrl+W, Q to close one
+<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>Q</kbd> to close one
 
-Ctrl+W, Ctrl+W to switch between windows
+<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>C</kbd>trl+W to switch between windows
 
-Ctrl+W, J (xor K, H, L) to switch to adjacent window (intuitively up, down, left, right)
+<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>J</kbd> (<kbd>x</kbd> or <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
 
 ## Loading Lua Scripts
 
