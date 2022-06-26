@@ -188,15 +188,15 @@ Use: <kbd>"</kbd> <kbd>+ </kbd> <kbd> y</kbd> and <kbd>"</kbd> <kbd>+ </kbd> <kb
 
 ### For Tiling
 
-<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>S</kbd> (upper case) for horizontal splitting
+- <kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>S</kbd> (upper case) for horizontal splitting
 
-<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>v</kbd> (lower case) for vertical splitting
+- <kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>v</kbd> (lower case) for vertical splitting
 
-<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>Q</kbd> to close one
+- <kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>Q</kbd> to close one
 
-<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>C</kbd>trl+W to switch between windows
+- <kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>C</kbd>trl+W to switch between windows
 
-<kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>J</kbd> (<kbd>x</kbd> or <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
+- <kbd>Ctrl</kbd> <kbd>W</kbd> <kbd>J</kbd> (<kbd>x</kbd> or <kbd>K</kbd>, <kbd>H</kbd>, <kbd>L</kbd>) to switch to adjacent window (intuitively up, down, left, right)
 
 ## Loading Lua Scripts
 
