@@ -276,3 +276,24 @@ You need `ripgrep` for `live_grep`.
 ```bash
 brew install ripgrep
 ```
+
+## JSONQ
+
+```bash
+brew install jq
+```
+
+## Go Setup
+
+Install `gopls` after adding `gopls` to your LSPConfig.
+
+```bash
+brew install gopls
+```
+
+## Global Find and Replace
+
+```bash
+brew install ripgrep
+brew install gnu-sed
+```
