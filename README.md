@@ -297,3 +297,9 @@ brew install gopls
 brew install ripgrep
 brew install gnu-sed
 ```
+
+## Lazygit Install
+
+```bash
+brew install lazygit
+```
