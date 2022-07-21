@@ -303,3 +303,11 @@ brew install gnu-sed
 ```bash
 brew install lazygit
 ```
+
+## sshfs Install
+
+For remote development (access files on remote machine).
+
+```
+brew install sshfs
+```
